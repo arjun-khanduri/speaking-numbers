@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    background-color: #232323;
+}
+h1{
+    margin:0;
+    height: 100px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size:70px;
+    font-family: monospace;
+    font-weight: normal;
+    text-align: center;
+    transition: all 5.5s;
+}
+#container{
+    background: lightgray;
+    height: 100px;
+    width:57%;
+    margin: auto;
+    border: black solid 4px;
+    font-size:24px;
+    color: black;
+}
+button{
+    background: white;
+    color: black;
+    font-size:24px;
+    margin-top: 10px;
+    width: 14.25%;
+    font-family: monospace;
+}
+#res,#clr{
+    width: 72.8%;
+    background:lightgreen;
+    font-family: monospace;
+}
+#btn-container{
+    margin-left:21.5%;
+}
+#container-top{
+    height:100px;
+    width: auto;
+}
+button:hover
+{
+    color: red;
+    background-color: black;
+}
